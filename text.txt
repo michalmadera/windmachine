@@ -1,0 +1,5 @@
+//C:\Anaconda3\Scripts\activate.bat C:\Anaconda3
+
+c:\Anaconda3\activateflask.cmd
+
+conda activat flask

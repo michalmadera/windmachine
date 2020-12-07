@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+    <div>
+        <a href="{{ url_for('startboat') }}">Start boat</a>
+    </div>
+    <div>
+        <a href="{{ url_for('boatstate') }}">Boat state</a>
+    </div>
+    <div>
+    <div>
+        Identitiy: {{boatstate.identity}}        
+    </div>
+    <div>
+        Heading: {{boatstate.heading}}        
+    </div>
+    <div>
+        Speed: {{boatstate.speed}}        
+    </div>
+    <div>
+        Latitude: {{boatstate.latitude}}        
+    </div>
+    <div>
+        Longitude: {{boatstate.longitude}}        
+    </div>
+{% endblock %}
